@@ -11,7 +11,6 @@ class Program
         Console.Write("请输入第二个整数: ");
         int num2 = int.Parse(Console.ReadLine());
 
-        // 计算和、差、积
         int sum = num1 + num2;
         int difference = num1 - num2;
         int product = num1 * num2;
@@ -20,7 +19,6 @@ class Program
         Console.WriteLine($"差: {difference}");
         Console.WriteLine($"积: {product}");
 
-        // 计算商和余数，考虑除数为0的情况
         if (num2 != 0)
         {
             int quotient = num1 / num2;
