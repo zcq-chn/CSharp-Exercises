@@ -1,9 +1,9 @@
 //  定义一个 DateTime 类型的变量表示当前日期时间，分别输出：当前日期、当前时间、明天的日期。
 
 using System;
-class Program
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         DateTime now = DateTime.Now;
 

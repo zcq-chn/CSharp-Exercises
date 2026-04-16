@@ -1,9 +1,9 @@
 //  从控制台读取两个整数，输出它们的和、差、积、商和余数。需考虑除数为 0 的情况并给出友好提示。
 
 using System;
-class Program
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         Console.Write("请输入第一个整数: ");
         int num1 = int.Parse(Console.ReadLine());

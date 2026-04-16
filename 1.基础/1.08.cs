@@ -1,9 +1,9 @@
 //  让用户输入圆的半径（double 类型），计算并输出圆的周长和面积（使用 Math.PI）
 
 using System;
-class Program
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         Console.Write("请输入圆的半径: ");
         double radius;

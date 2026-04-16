@@ -1,9 +1,9 @@
 //  将字符串 "123" 转换为整数，将整数 456 转换为字符串，并输出转换前后的类型。
 
 using System;
-class Program
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         string strNumber = "123";
         int intNumber = int.Parse(strNumber);
